@@ -1,0 +1,22 @@
+### Signup
+POST http://localhost:8080/api/auth/signup
+Content-Type: application/json
+
+{
+  "name": "Madhav Nimbola",
+  "email": "madhavnormalization@gmail.com",
+  "password": "123456"
+}
+
+### Login
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "madhavnormalization@gmail.com",
+  "password": "123456"
+}
+
+### Logout
+POST http://localhost:8080/api/auth/logout
+Content-Type: application/json
