@@ -11,7 +11,6 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 connectDB();
-
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
